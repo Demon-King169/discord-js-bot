@@ -1,9 +1,9 @@
 module.exports = {
-  OWNER_IDS: [""], // Bot owner ID's
-  SUPPORT_SERVER: "", // Your bot support server
+  OWNER_IDS: ["801674279225393163", "1110890609239130122", "1207510451005427783"], // Bot owner ID's
+  SUPPORT_SERVER: "https://discord.com/invite/qePdcGPNge", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: "!", // Default prefix for the bot
+    DEFAULT_PREFIX: ".", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: false, // Should the interactions be enabled
@@ -24,13 +24,13 @@ module.exports = {
     MEMBERS: 10000,
   },
   MESSAGES: {
-    API_ERROR: "Unexpected Backend Error! Try again later or contact support server",
+    API_ERROR: "Unexpected Backend Error! Try again later or Create a Ticket and Report The Error in Support Server",
   },
 
   // PLUGINS
 
   AUTOMOD: {
-    ENABLED: false,
+    ENABLED: true,
     LOG_EMBED: "#36393F",
     DM_EMBED: "#36393F",
   },
@@ -43,10 +43,10 @@ module.exports = {
   },
 
   ECONOMY: {
-    ENABLED: false,
-    CURRENCY: "₪",
+    ENABLED: true,
+    CURRENCY: "B COIN",
     DAILY_COINS: 100, // coins to be received by daily command
-    MIN_BEG_AMOUNT: 100, // minimum coins to be received when beg command is used
+    MIN_BEG_AMOUNT: 50, // minimum coins to be received when beg command is used
     MAX_BEG_AMOUNT: 2500, // maximum coins to be received when beg command is used
   },
 
@@ -69,23 +69,23 @@ module.exports = {
   },
 
   GIVEAWAYS: {
-    ENABLED: false,
+    ENABLED: true,
     REACTION: "🎁",
     START_EMBED: "#FF468A",
     END_EMBED: "#FF468A",
   },
 
   IMAGE: {
-    ENABLED: false,
+    ENABLED: true,
     BASE_API: "https://strangeapi.hostz.me/api",
   },
 
   INVITE: {
-    ENABLED: false,
+    ENABLED: true,
   },
 
   MODERATION: {
-    ENABLED: false,
+    ENABLED: true,
     EMBED_COLORS: {
       TIMEOUT: "#102027",
       UNTIMEOUT: "#4B636E",
@@ -103,20 +103,20 @@ module.exports = {
   },
 
   PRESENCE: {
-    ENABLED: false, // Whether or not the bot should update its status
+    ENABLED: true, // Whether or not the bot should update its status
     STATUS: "online", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "{members} members in {servers} servers", // Your bot status message
+    MESSAGE: "Your Commands | .help", // Your bot status message
   },
 
   STATS: {
-    ENABLED: false,
+    ENABLED: true,
     XP_COOLDOWN: 5, // Cooldown in seconds between messages
     DEFAULT_LVL_UP_MSG: "{member:tag}, You just advanced to **Level {level}**",
   },
 
   SUGGESTIONS: {
-    ENABLED: false, // Should the suggestion system be enabled
+    ENABLED: true, // Should the suggestion system be enabled
     EMOJI: {
       UP_VOTE: "⬆️",
       DOWN_VOTE: "⬇️",
@@ -127,7 +127,7 @@ module.exports = {
   },
 
   TICKET: {
-    ENABLED: false,
+    ENABLED: true,
     CREATE_EMBED: "#068ADD",
     CLOSE_EMBED: "#068ADD",
   },
